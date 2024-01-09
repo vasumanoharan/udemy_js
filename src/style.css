@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+     font-family: 'Gabarito', sans-serif;;
+}
+.section__01{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    align-items: center;
+    padding: 2px;
+    padding-right: 5px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.section__01__heading{
+    color: #A435F0;
+}
+.section__01__search{
+    border: 1px solid black;
+    width: 50%;
+    border-radius: 50px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.section__01__search input{
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+}
+.section__01__search input:focus{
+    outline: none;
+}
+.section__01__nav{
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-left: -10px;
+/* left: 10px; */
+
+}
+.section__01__nav a{
+    font-size: small;
+    color: black;
+    text-decoration: none;
+}
+
+.section__01__icon{
+    /* margin-left: -80px; */
+   display: flex;
+   gap: 15px;
+}
+.toolbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.toolbar a{
+    text-decoration: none;
+    background-color: #A435F0;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: small;
+    color: white;
+    transition: 2s;
+}
+.toolbar a:hover{
+    background-color: white;
+    color: #A435F0;
+    border: 1px solid #A435F0;
+}
+.Udemy__photo{
+    /* display: flex; */
+    /* position: absolute; */
+   
+    
+}
+.recom{
+    margin-top: -60px;
+}
+
+.box{
+    border: 1px solid black;
+    width: 40%;
+    padding: 5px;
+    position: relative;
+    bottom: 200px;
+    left: 20px;
+    background-color: white;
+    animation-name: zoom;
+    animation-duration: 2s;
+}
+@keyframes zoom{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.box p{
+    font-size: small;
+}
+
+.udemy__cards{
+    width: 100%;
+    display: flex;
+    background-color: aliceblue;
+    
+    margin-top: 5px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card__01{
+    padding: 4px;
+   /* border: 1px solid black; */
+   width: 22%;
+}
+.card__01 h2{
+    font-size: medium;
+}
+.card__01 img{
+    width: 150px;
+    height: 150px;
+}
+.udemy__rows{
+    width: 100%;
+    display: flex;
+    background-color: aliceblue;
+    
+    margin-top: 5px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.rows{
+   padding: 4px;
+   /* border: 1px solid black; */
+   width: 22%;
+}
+.rows h2{
+    font-size: medium;
+}
+.rows img{
+    width: 150px;
+    height: 150px;
+}
+.heading__hidden{
+    display: none;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    gap: 50px;
+    margin-top: 5px;
+}
+.col1 {
+   vertical-align: top;
+   
+}
+.col1 a{
+   
+}
+.col2  {
+  
+    
+}
+.copy{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.attributes a{
+    text-decoration: none;
+    color: white;
+}
+
+.top p{
+    border: 1px solid black;
+   padding: 5px;
+   flex-grow: 1;
+   width: 40%;
+   transition: 2s; 
+   
+}
+.top p:hover{
+    background-color: black;
+    color: white;
+}
+.top{
+display: flex;
+margin-left: 5px ;
+gap: 4px;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+}
+
+/* @media screen and (max-width:768px){
+    .section__01__nav a{
+        display: none;
+    }
+    .box{
+        display: none;
+    }
+}
+@media screen and (max-width:320px) {
+    
+} */
